@@ -5,15 +5,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const IconText = ({
   icon,
   size = 1,
-  color = "#000",
-  className = "",
+  color = '#000',
+  className = '',
+  textClassName = '',
   children,
 }) => (
-  <Row>
-    <Col xs={2} className="d-flex justify-content-center">
+  <Row className={className}>
+    <Col xs={size} className="d-flex justify-content-center">
       <FontAwesomeIcon icon={icon} size={size} color={color} />
     </Col>
-    <Col xs={10} className={className}>
+    <Col xs={12 - size} className={textClassName}>
       {children}
     </Col>
   </Row>
