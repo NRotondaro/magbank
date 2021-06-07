@@ -5,6 +5,8 @@ import CreditCard from './components/CreditCard';
 import CardList from './components/CardList';
 import CenteredButton from './components/CenteredButton';
 import Institutional from './components/Institutional';
+import Faq from './components/Faq';
+import Footer from './components/Footer';
 import './App.scss';
 
 import posts from './data/posts';
@@ -19,6 +21,8 @@ const App = () => (
     <CenteredButton>Abra sua conta</CenteredButton>
 
     <Institutional />
+    <Faq></Faq>
+    <Footer></Footer>
   </div>  
 );
 

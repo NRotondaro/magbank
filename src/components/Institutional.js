@@ -24,21 +24,23 @@ const Institutional = () => (
             minim ex amet sunt. Enim incididunt proident ipsum ipsum cupidatat
             ipsum consequat laboris.
           </p>
-          <IconText icon={faMobileAlt} size='2x' color='#fff' className='mt-5'>
-            Sem fila sem burocracia
-          </IconText>
-          <IconText icon={faMobile} size='2x' color='#fff' className='mt-5'>
-            Simples e prático
-          </IconText>
-          <IconText icon={faGlobe} size='2x' color='#fff' className='mt-5'>
-            Abertura de conta 100% online
-          </IconText>
-          <IconText icon={faShieldAlt} size='2x' color='#fff' className='mt-5'>
-            Transações mais seguras
-          </IconText>
-          <Button className='mt-5' variant="outline-light">
-            Abra sua conta
-          </Button>
+          <div className='px-2'>
+            <IconText icon={faMobileAlt} size='2' color='#fff' className='mt-5'>
+                Sem fila sem burocracia
+            </IconText>
+            <IconText icon={faMobile} size='2' color='#fff' className='mt-5'>
+                Simples e prático
+            </IconText>
+            <IconText icon={faGlobe} size='2' color='#fff' className='mt-5'>
+                Abertura de conta 100% online
+            </IconText>
+            <IconText icon={faShieldAlt} size='2' color='#fff' className='mt-5'>
+                Transações mais seguras
+            </IconText>
+            <Button className='mt-5' variant="outline-light">
+                Abra sua conta
+            </Button>
+          </div>
         </Col>
       </Row>
     </Container>
