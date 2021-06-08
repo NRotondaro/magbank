@@ -21,7 +21,7 @@ const AccountModal = ({ show, handleClose }) => (
 
         <Form.Group className="mb-3" controlId="formCity">
           <Form.Label className="my-1" htmlFor="formCitySelect">
-            Seu e-mail
+            Sua cidade
           </Form.Label>
           <Form.Control as="select" className="my-1" id="formCitySelect">
             <option value="0">Florianópolis - SC</option>
