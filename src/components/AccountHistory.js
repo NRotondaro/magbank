@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Table } from "react-bootstrap";
 
-import './AccountHistory.scss';
-
 const AccountHistyory = ({ data }) => {
   const { history } = data;
 

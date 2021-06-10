@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Button, Tabs, Tab, Table, Form } from "react-bootstrap";
+import { Col, Button, Tabs, Tab, Form } from "react-bootstrap";
 
 const AccountPayments = () => (
   <>
