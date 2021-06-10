@@ -79,7 +79,7 @@ const Navigation = ({ handleCreateAcc, logged, auth }) => {
                 </Button>
 
                 <Button variant='outline-light' onClick={handleCreateAcc}>
-                  abra sua conta
+                  Abra sua conta
                 </Button>
               </ButtonGroup>
             </Navbar.Collapse>
