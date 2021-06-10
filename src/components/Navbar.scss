@@ -8,7 +8,8 @@
         color: #fff;
     }
 
-    a.dropdown-toggle.nav-link:hover {
+    a.dropdown-toggle.nav-link:hover,
+    a.dropdown-toggle.nav-link:focus {
         color: #212529;
     }
 
