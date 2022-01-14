@@ -17,13 +17,7 @@
 
 ## Install
 
-```sh
-npm run start // yarn start
-```
-
-## Usage
-
-Install packages with
+Packages with
 ```sh
 npm install
 ```
@@ -31,14 +25,24 @@ or
 ```sh
 yarn
 ```
-Install expo with 
 
+Expo with 
 ```sh
 npm install -g expo
 ```
 or
 ```sh
 yarn global add expo
+```
+
+## Usage
+
+```sh
+npm run start 
+```
+or
+```sh
+yarn start
 ```
 
 ## Run tests
