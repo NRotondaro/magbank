@@ -23,14 +23,32 @@ npm run start // yarn start
 
 ## Usage
 
+Install packages with
 ```sh
-First run npm install // yarn. Also install expo with npm install -g expo
+npm install
+```
+or
+```sh
+yarn
+```
+Install expo with 
+
+```sh
+npm install -g expo
+```
+or
+```sh
+yarn global add expo
 ```
 
 ## Run tests
 
 ```sh
-npm run test // yarn test
+npm run test
+```
+or
+```sh
+yarn test
 ```
 
 ## Author
@@ -47,5 +65,3 @@ npm run test // yarn test
 Give a ⭐️ if this project helped you!
 
 ---
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
