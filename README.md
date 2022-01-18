@@ -1,68 +1,50 @@
-<h1 align="center">Welcome to magbank 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/NRotondaro/magbank" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://twitter.com/https:\/\/twitter.com\/NoskinR" target="_blank">
-    <img alt="Twitter: https:\/\/twitter.com\/NoskinR" src="https://img.shields.io/twitter/follow/https:\/\/twitter.com\/NoskinR.svg?style=social" />
-  </a>
+<h1 align="center">
+  <img alt="logo-studion" title="Studion" src="./public/logo.png" />
+</h1>
+
+<p align="center">
+  <a href="#-techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to">How to</a>&nbsp;&nbsp;&nbsp;
 </p>
-
-> Virtual bank copy inspired by fintechs
-
-### 🏠 [Homepage](https://bankniksonrotondaro.surge.sh/)
 
 ### ✨ [Demo](https://bankniksonrotondaro.surge.sh/)
 
-## Install
+<br>
 
-Packages with
-```sh
-npm install
-```
-or
-```sh
-yarn
-```
+<p align="center">
+  <img alt="banner-studion" src="./public/banner.png" width="100%">
+</p>
 
-Expo with 
-```sh
-npm install -g expo
-```
-or
-```sh
-yarn global add expo
-```
+## ✨ Techs
 
-## Usage
+This project is made using:
 
-```sh
-npm run start 
-```
-or
-```sh
-yarn start
-```
+- [React](https://reactjs.org)
+- [Bootstrap](https://getbootstrap.com/)
+- [SASS](https://sass-lang.com/)
+- [FontAwesome](https://fontawesome.com/)
 
-## Run tests
+## 💻 About
 
-```sh
-npm run test
-```
-or
-```sh
-yarn test
-```
+Hulu is a fake streaming video website
+
+## 🚀 How to
+
+- Clone the repository
+- Install packages with `yarn` or `npm install`
+- Run `yarn start` or `npm run start`
+
+Now you can access [`localhost:3000`](http://localhost:3000)
 
 ## Author
 
 👤 **Nikson Rotondaro**
 
 - Website: https://github.com/NRotondaro
-- Twitter: [@https:\/\/twitter.com\/NoskinR](https://twitter.com/https://twitter.com/NoskinR)
+- Twitter: [https:\/\/twitter.com\/NoskinR](https://twitter.com/NoskinR)
 - Github: [@NRotondaro](https://github.com/NRotondaro)
-- LinkedIn: [@https:\/\/www.linkedin.com\/in\/nikson-rotondaro\/](https://linkedin.com/in/https://www.linkedin.com/in/nikson-rotondaro/)
+- LinkedIn: [https:\/\/www.linkedin.com\/in\/nikson-rotondaro\/](https://www.linkedin.com/in/nikson-rotondaro/)
 
 ## Show your support
 
