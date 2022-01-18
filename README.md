@@ -27,7 +27,7 @@ This project is made using:
 
 ## 💻 About
 
-Hulu is a fake streaming video website
+Magbank is a fake virtual bank
 
 ## 🚀 How to
 
@@ -41,7 +41,7 @@ Now you can access [`localhost:3000`](http://localhost:3000)
 
 👤 **Nikson Rotondaro**
 
-- Website: https://github.com/NRotondaro
+- Website: https://bankniksonrotondaro.surge.sh/
 - Twitter: [https:\/\/twitter.com\/NoskinR](https://twitter.com/NoskinR)
 - Github: [@NRotondaro](https://github.com/NRotondaro)
 - LinkedIn: [https:\/\/www.linkedin.com\/in\/nikson-rotondaro\/](https://www.linkedin.com/in/nikson-rotondaro/)
