@@ -1,23 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
-} from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import AccountModal from './components/AccountModal';
-import './App.scss';
+} from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import AccountModal from "./components/AccountModal";
+import "./App.scss";
 
-import Home from './views/Home';
-import Login from './views/Login';
-import Dashboard from './views/Dashboard';
+import Home from "./views/Home";
+import Login from "./views/Login";
+import Dashboard from "./views/Dashboard";
 
 const PrivateRoute = ({ children, logged, ...rest }) => (
   <Route
     {...rest}
-    render={() => (logged ? children : <Redirect to='/login' />)}
+    render={() => (logged ? children : <Redirect to="/login" />)}
   />
 );
 
@@ -49,13 +49,13 @@ const App = () => {
       />
 
       <Switch>
-        <Route path='/login'>
+        <Route path="/login">
           <Login auth={fakeAuth} />
         </Route>
-        <PrivateRoute path='/dashboard' logged={isLogged}>
+        <PrivateRoute path="/dashboard" logged={isLogged}>
           <Dashboard name={name} account={account} />
         </PrivateRoute>
-        <Route path='/'>
+        <Route path="/">
           <Home handleClick={() => setShowModal(true)} />
         </Route>
       </Switch>

@@ -6,7 +6,7 @@ import {
   faShoppingCart,
   faWallet,
 } from "@fortawesome/free-solid-svg-icons";
-import IconText from './IconText';
+import IconText from "./IconText";
 import creditCard from "../assets/credit-card.jpg";
 import "./CreditCard.scss";
 
@@ -19,22 +19,42 @@ const CreditCard = () => (
         </Row>
         <Row>
           <Col xs={12} lg={6} className="mb-4">
-            <IconText icon={faCreditCard} size='2' color='#f05656' textClassName='h5 text-muted'>
+            <IconText
+              icon={faCreditCard}
+              size="2"
+              color="#f05656"
+              textClassName="h5 text-muted"
+            >
               Credito Pessoal
             </IconText>
           </Col>
           <Col xs={12} lg={6} className="mb-4">
-            <IconText icon={faMobile} size='2' color='#f05656' textClassName='h5 text-muted'>
+            <IconText
+              icon={faMobile}
+              size="2"
+              color="#f05656"
+              textClassName="h5 text-muted"
+            >
               App
             </IconText>
           </Col>
           <Col xs={12} lg={6} className="mb-4">
-            <IconText icon={faShoppingCart} size='2' color='#f05656' textClassName='h5 text-muted'>
+            <IconText
+              icon={faShoppingCart}
+              size="2"
+              color="#f05656"
+              textClassName="h5 text-muted"
+            >
               Pagamentos Online
             </IconText>
           </Col>
           <Col xs={12} lg={6} className="mb-4">
-            <IconText icon={faWallet} size='2' color='#f05656' textClassName='h5 text-muted'>
+            <IconText
+              icon={faWallet}
+              size="2"
+              color="#f05656"
+              textClassName="h5 text-muted"
+            >
               Pagamento Digital
             </IconText>
           </Col>

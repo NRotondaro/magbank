@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Accordion, Card,} from "react-bootstrap";
+import { Container, Row, Col, Accordion, Card } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCreditCard,
@@ -22,7 +22,7 @@ const Faq = () => {
 
   const handleClick = (key) => {
     setIndex(key);
-  }
+  };
 
   return (
     <section className="faq text-light">
@@ -38,14 +38,14 @@ const Faq = () => {
                   <FontAwesomeIcon
                     icon={icon}
                     size="2x"
-                    color={key === index ? "#fff" : '#bbb'}
+                    color={key === index ? "#fff" : "#bbb"}
                     onClick={() => handleClick(key)}
                   />
                 </Col>
               ))}
             </Row>
-            <Row className='justify-content-center mt-5'>
-              <p className='lead'>{options[index].text}</p>
+            <Row className="justify-content-center mt-5">
+              <p className="lead">{options[index].text}</p>
             </Row>
           </Col>
 
@@ -56,7 +56,7 @@ const Faq = () => {
                 size={3}
                 className="mb-3"
                 textClassName="lead"
-                color={key === index ? "#fff" : '#bbb'}
+                color={key === index ? "#fff" : "#bbb"}
                 onClick={() => handleClick(key)}
                 key={key}
               >
@@ -66,7 +66,7 @@ const Faq = () => {
           </Col>
 
           <Col>
-            <Accordion defaultActiveKey='0' activeKey={`${index}`}>
+            <Accordion defaultActiveKey="0" activeKey={`${index}`}>
               <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="0">
                   Lorem ipsum dolor sit amet

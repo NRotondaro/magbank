@@ -21,7 +21,7 @@ const AccountHistyory = ({ data }) => {
             <tr>
               <td>{date}</td>
               <td>{description}</td>
-              <td className='value--color'>{value}</td>
+              <td className="value--color">{value}</td>
               <td>{balance}</td>
             </tr>
           ))}

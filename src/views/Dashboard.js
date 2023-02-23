@@ -10,7 +10,7 @@ import AccountHistory from "../components/AccountHistory";
 
 import "./Dashboard.scss";
 
-const Dashboard = ( {name, account} ) => {  
+const Dashboard = ({ name, account }) => {
   const [activeLink, setActiveLink] = useState(0);
 
   const links = [
